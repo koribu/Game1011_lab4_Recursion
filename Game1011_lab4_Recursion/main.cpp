@@ -56,7 +56,7 @@ int main()
 				intArrayPtr[i] = rand() % 500;
 			}
 
-			quickSort(intArrayPtr, 0, arraySize);
+			quickSort(intArrayPtr, 0, arraySize-1);
 
 			for(int i = 0; i<arraySize;i++)
 			{
